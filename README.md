@@ -13,6 +13,3 @@ tips:
 	netstat -aln|grep  '内网ip:9870' | grep -c 'ESTABLISHED'    //find how many people connet you
 
 
-fibos stopseed.js a 8871 7777
-
-
