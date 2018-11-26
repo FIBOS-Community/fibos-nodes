@@ -8,7 +8,7 @@
 
 ## 启动说明
 
-steps:
+说明:
 	
 	fibos bp.js   //快去启动一个bp节点
 
@@ -16,7 +16,7 @@ steps:
 
 	fibos seed.js // 快速启动一个同步节点
 
-tips:
+## 工具
 	
 	FIBOS快速安装
 
@@ -30,4 +30,9 @@ tips:
 
 	netstat -aln|grep  '内网ip:9870' | grep -c 'ESTABLISHED'    //find how many people connet you
 
+## 其他
+	
+	官网：https://fibos.io 
+	
+	开发者社区：https://dev.fo
 
