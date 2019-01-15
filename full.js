@@ -1,6 +1,6 @@
-var fibos = require('fibos');
-var fs = require("fs");
-var config = require('./config');
+const fibos = require('fibos');
+const fs = require("fs");
+const config = require('./config');
 
 console.notice("start FIBOS full node");
 
@@ -24,10 +24,11 @@ fibos.load("http", {
 fibos.load("net", {
 	"p2p-peer-address": config.p2p_peer_address,
 	"max-clients": 100,
-	"p2p-listen-endpoint": "0.0.0.0:9870"
+	"p2p-listen-endpoint": "0.0.0.0:9870",
+	"agent-name": "FIBOS Full"
 });
 
-var chain_config = {
+let chain_config = {
 	"contracts-console": true,
 	'chain-state-db-size-mb': 8 * 1024,
 	// "delete-all-blocks": true
@@ -44,8 +45,8 @@ fibos.load("producer", {
 
 fibos.load("chain", chain_config);
 fibos.load("chain_api");
-fibos.load("history",{
-	     "filter-on": "*"
+fibos.load("history", {
+	"filter-on": "*"
 });
 fibos.load("history_api");
 

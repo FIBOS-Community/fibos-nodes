@@ -1,9 +1,9 @@
-var fibos = require('fibos');
-var fs = require("fs");
-var config = require('./config');
+const fibos = require('fibos');
+const fs = require("fs");
+const config = require('./config');
 console.notice("start FIBOS producer node");
 
-var keys = "";
+let keys = "";
 
 while (true) {
 	keys = console.readLine("input the  produce-rname:public-key:private-key! oooo:xxxxx:xxxx\n");
@@ -11,8 +11,8 @@ while (true) {
 }
 
 
-var public_key = "";
-var private_key = "";
+let public_key = "";
+let private_key = "";
 keys = keys.split(":");
 producername = keys[0];
 public_key = keys[1];
@@ -21,7 +21,7 @@ private_key = keys[2];
 fibos.config_dir = config.config_dir;
 fibos.data_dir = config.data_dir;
 
-var chain_config = {
+let chain_config = {
 	"contracts-console": true,
 	'chain-state-db-size-mb': 8 * 1024,
 	// "delete-all-blocks": true
@@ -45,7 +45,8 @@ fibos.load("http", {
 fibos.load("net", {
 	"max-clients": 100,
 	"p2p-peer-address": config.p2p_peer_address,
-	"p2p-listen-endpoint": "0.0.0.0:9870"
+	"p2p-listen-endpoint": "0.0.0.0:9870",
+	"agent-name": "FIBOS Bp"
 });
 
 fibos.load("producer", {
