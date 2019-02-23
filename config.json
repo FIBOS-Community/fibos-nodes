@@ -1,25 +1,4 @@
 {
 	"config_dir": "./blockData/data",
-	"data_dir": "./blockData/data",
-	"p2p_peer_address": [
-		"seed.bitze.site:9870",
-		"api.xxq.pub:8888",
-		"p2p.eosays.com:9870",
-		"p2p.fibos.pw:59898",
-		"p2p-mainnet.fibos123.com:9977",
-		"p2p.fibos.fi:59595",
-		"p2p-mainnet.fobp.pro:9873",
-		"va-p2p.fibos.io:9870",
-		"ca-p2p.fibos.io:9870",
-		"sl-p2p.fibos.io:9870",
-		"47.92.122.2:9870",
-		"se-p2p.fibos.io:9870",
-		"seed.fibos.rocks:10100",
-		"fibos.tokenasst.com:9870",
-		"p2p-mainnet.loveyy.xyz:9871",
-		"p2p.fibos.team:9876",
-		"ln-p2p.fibos.io:9870",
-		"185.243.57.158:9870",
-		"p2p.touch-me.club:9870"
-	]
+	"data_dir": "./blockData/data"
 }

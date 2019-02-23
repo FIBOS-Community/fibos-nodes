@@ -2,7 +2,7 @@ const fibos = require('fibos');
 const fs = require("fs");
 const config = require('./config');
 console.notice("start FIBOS producer node");
-
+const p2paddress = require('./p2p.json');
 let keys = "";
 
 while (true) {
@@ -44,7 +44,7 @@ fibos.load("http", {
 
 fibos.load("net", {
 	"max-clients": 100,
-	"p2p-peer-address": config.p2p_peer_address,
+	"p2p-peer-address": p2paddress,
 	"p2p-listen-endpoint": "0.0.0.0:9870",
 	"agent-name": "FIBOS Bp"
 });

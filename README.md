@@ -2,9 +2,9 @@
 
 	快速启动FIBOS节点
 
-	默认数据，配置存储位置 /blockData/data
+	默认数据，配置存储位置 ./blockData/data
 
-
+	
 
 ## 启动说明
 
@@ -30,6 +30,10 @@
 
 	netstat -aln|grep  '内网ip:9870' | grep -c 'ESTABLISHED'    //find how many people connet you
 
+## all p2p
+
+	https://github.com/FIBOS-Community/fibos-p2p/blob/master/p2p.json
+	
 ## 其他
 	
 	官网：[https://fibos.io](https://fibos.io)
