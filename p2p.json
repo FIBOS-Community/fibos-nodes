@@ -1,5 +1,6 @@
 [
 	"p2p.eosays.com:37106",
+	"p2p.amttothemoon.com:9801",
 	"p2p.otclook.com:9870",
 	"seed.bitze.site:9870",
 	"47.74.181.212:27672",
@@ -8,7 +9,7 @@
 	"p2p.fibos.pw:59898",
 	"p2p.fometa.io:59877",
 	"p2p-mainnet.fibos123.com:9977",
-	"p2p.eosas.io:9870",
+	"p2p.eosas.io:37717",
 	"p2p.fibos.fi:59595",
 	"p2p-mainnet.fobp.pro:9873",
 	"104.243.24.188:9870",
@@ -33,8 +34,12 @@
 	"40.115.179.182:9870",
 	"p2p.foshenzhenbp.com:9877",
 	"p2p.xm.fo:10300",
+	"34.73.46.1:9870",
+	"p2p.mainnet.hellofibos.com:9876",
 	"p2p-mainnet.ilovefibos.com:9876",
-	"p2p-mainnet.loveyy.xyz:9871",
+	"fibos.koalakoala.club:9870",
+	"p2p-mainnet.loveyy.xyz:9870",
+	"39.105.218.4:9870",
 	"p2p.fibos.team:9876",
 	"ln-p2p.fibos.io:9870",
 	"seed.fomaya.club:9870",
@@ -48,5 +53,5 @@
 	"p2p.touch-me.club:9870",
 	"ppray.com:9870",
 	"fibos.qubitfund.com:9870",
-	"p2p-mainnet.qingah.com:9876"
+	"p2p-mainnet.qingah.com:9870"
 ]
