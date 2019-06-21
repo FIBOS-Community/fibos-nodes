@@ -44,6 +44,9 @@ fibos.load("producer", {
 	'max-transaction-time': 3000
 });
 
+//1.7.1.4 for eth fox
+fibos.load("ethash");
+
 fibos.load("chain", chain_config);
 fibos.load("chain_api");
 fibos.load("history", {

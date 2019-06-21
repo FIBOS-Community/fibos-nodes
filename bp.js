@@ -55,6 +55,15 @@ fibos.load("producer", {
 	'private-key': JSON.stringify([public_key, private_key])
 });
 
+//v1.7.1.4 for eth fox
+
+fibos.load("ethash");
+
+fibos.load("bp_signature", {
+	"signature-producer": producername,
+	"signature-private-key": private_key
+});
+
 
 fibos.load("chain", chain_config);
 fibos.load("chain_api");
